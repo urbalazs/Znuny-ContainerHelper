@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="Package::EventModulePost###1000-ContainerHelper" Required="0" Valid="1">
+        <Description Translatable="1">Package event module to trigger the web server and daemon restart.</Description>
+        <Navigation>Core::Event::Package</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Module">Kernel::System::Package::Event::ContainerHelper</Item>
+                <Item Key="Event">\A(PackageInstall|PackageReinstall|PackageUpgrade|PackageUninstall)\z</Item>
+                <Item Key="Transaction">1</Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>
