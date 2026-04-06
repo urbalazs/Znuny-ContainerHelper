@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>Znuny-ContainerHelper</Name>
+    <Version>1.0.0</Version>
+    <Framework>7.1.x</Framework>
+    <Vendor>Znuny GmbH</Vendor>
+    <URL>https://znuny.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Adds container helper functions to Znuny..</Description>
+    <Description Lang="de">Erweitert Znuny um Funktionen zur Unterstützung beim Einsatz in Containern..</Description>
+    <Filelist>
+        <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyContainerHelper.xml"/>
+        <File Permission="660" Location="Kernel/System/Package/Event/ContainerHelper.pm"/>
+    </Filelist>
+</otrs_package>
