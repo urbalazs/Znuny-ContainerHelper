@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
     <Name>Znuny-ContainerHelper</Name>
-    <Version>1.0.0</Version>
+    <Version>7.3.0</Version>
     <Framework>7.3.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>https://znuny.com/</URL>
@@ -11,6 +11,7 @@
     <PackageIsRemovable>0</PackageIsRemovable>
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyContainerHelper.xml"/>
+        <File Permission="660" Location="Kernel/Language/de_ZnunyContainerHelper.pm"/>
         <File Permission="660" Location="Kernel/System/Package/Event/ContainerHelper.pm"/>
     </Filelist>
 </otrs_package>
