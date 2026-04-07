@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <otrs_package version="1.0">
     <Name>Znuny-ContainerHelper</Name>
-    <Version>7.3.0</Version>
+    <Version>7.3.1</Version>
     <Framework>7.3.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
     <URL>https://znuny.com/</URL>
@@ -9,6 +9,7 @@
     <Description Lang="en">Adds container helper functions to Znuny.</Description>
     <Description Lang="de">Erweitert Znuny um Funktionen zur Unterstützung beim Einsatz in Containern.</Description>
     <PackageIsRemovable>0</PackageIsRemovable>
+    <ChangeLog Version="7.3.1" Date="2026-04-07 15:32:44 +0200">Initial release for Znuny 7.3.</ChangeLog>
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyContainerHelper.xml"/>
         <File Permission="660" Location="Kernel/Language/de_ZnunyContainerHelper.pm"/>
