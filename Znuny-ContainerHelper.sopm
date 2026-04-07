@@ -6,8 +6,8 @@
     <Vendor>Znuny GmbH</Vendor>
     <URL>https://znuny.com/</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
-    <Description Lang="en">Adds container helper functions to Znuny..</Description>
-    <Description Lang="de">Erweitert Znuny um Funktionen zur Unterstützung beim Einsatz in Containern..</Description>
+    <Description Lang="en">Adds container helper functions to Znuny.</Description>
+    <Description Lang="de">Erweitert Znuny um Funktionen zur Unterstützung beim Einsatz in Containern.</Description>
     <PackageIsRemovable>0</PackageIsRemovable>
     <Filelist>
         <File Permission="660" Location="Kernel/Config/Files/XML/ZnunyContainerHelper.xml"/>
