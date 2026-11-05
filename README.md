@@ -15,7 +15,7 @@ Provides package event hooks for container deployments. After package install, r
 
 **Prerequisites**
 
-- Znuny 7.3
+- Znuny 7.5
 
 **Installation**
 
