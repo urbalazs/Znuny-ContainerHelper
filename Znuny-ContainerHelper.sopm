@@ -8,6 +8,7 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">Adds container helper functions to Znuny.</Description>
     <Description Lang="de">Erweitert Znuny um Funktionen zur Unterstützung beim Einsatz in Containern.</Description>
+    <Description Lang="hu">Konténersegítő funkciókat ad a Znuny keretrendszerhez.</Description>
     <PackageIsRemovable>0</PackageIsRemovable>
     <ChangeLog Version="7.3.1" Date="2026-04-07 15:32:44 +0200">Initial release for Znuny 7.3.</ChangeLog>
     <Filelist>
