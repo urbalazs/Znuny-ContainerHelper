@@ -10,15 +10,19 @@ package Kernel::Language::de_ZnunyContainerHelper;
 
 use strict;
 use warnings;
-
 use utf8;
 
 sub Data {
     my $Self = shift;
 
-    $Self->{Translation}->{'Package event module to trigger the web server and daemon restart.'} = 'Paket-Ereignismodul zum Auslösen des Neustarts von Webserver und Daemon.';
+    # SysConfig
+    $Self->{Translation}->{'Package event module to trigger the web server and daemon restart.'} =
+        'Paket-Ereignismodul zum Auslösen des Neustarts von Webserver und Daemon.';
 
-    return 1;
+
+    push @{ $Self->{JavaScriptStrings} //= [] }, (
+    );
+
 }
 
 1;

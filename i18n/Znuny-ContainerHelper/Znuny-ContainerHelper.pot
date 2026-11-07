@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Znuny-ContainerHelper\n"
+"POT-Creation-Date: 2026-11-07 00:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. SysConfig
+msgid "Package event module to trigger the web server and daemon restart."
+msgstr ""
